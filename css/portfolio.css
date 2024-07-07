@@ -1,0 +1,252 @@
+body{
+    margin: 0px;
+    font-family: 'Arial';
+}
+
+header{
+    background-color: rgb(225, 179, 111);
+    color: black;
+    text-decoration: none;
+    margin: 0px;
+}
+
+nav a{
+    color: black; 
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+ul{
+    float: right;
+    /* margin: 10px; */
+    display: flex;
+    gap: 20px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.column{
+    width: 320px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+h1{
+    text-align: center;
+    color: #9e5b09;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+.box{
+    background-color: darkslategray;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    text-align: center;
+    color: #9e5b09;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.horiz{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+article{
+    background-color: lightgrey;
+}
+
+.title{
+    margin-bottom: 6px;
+    /* width: 300px; */
+}
+
+.subtitle{
+    /* width: 300px; */
+    margin-bottom: 6px;
+}
+
+.border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: 2px solid #9e5b09;
+    border-radius: 6px;
+    width: 300px;
+    height: 420px;
+}
+
+button{
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    background-color: #9e5b09;
+    color: white;
+    font-weight: bold; 
+    border-radius: 4px;
+    border-style: none; 
+}
+
+footer{
+    background-color: #734001;
+    color: white;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#github{
+    background-color: white;
+}
+
+.bold{
+    color: darkslategray;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.horiz2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.mobile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (width <= 600px) {
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    /* Hamburger Menu Navigation */
+.closed{
+    display: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(225, 179, 111);
+    gap: 10px;
+    align-items: left;
+    justify-content: flex-start;
+    top: 54px;
+}
+
+.open{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.horiz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.center2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+ul.horiz{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+}
