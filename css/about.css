@@ -13,6 +13,8 @@ header{
 nav a{
     color: black; 
     text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 nav a:hover{
@@ -176,6 +178,13 @@ nav {
     align-items: left;
     justify-content: flex-start;
     top: 54px;
+}
+
+nav a{
+    color: black; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .open{
