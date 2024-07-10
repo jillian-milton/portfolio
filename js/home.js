@@ -30,3 +30,21 @@ portfolio.addEventListener('click', function(){
     window.location = '../html/portfolio.html';
 })
 
+let winning = document.querySelector('.winning');
+
+winning.addEventListener('click', function(){
+    window.location = '../html/winning.html';
+})
+
+let gated = document.querySelector('.gated');
+
+gated.addEventListener('click', function(){
+    window.location = '../html/gated.html';
+})
+
+let hub = document.querySelector('.hub');
+
+hub.addEventListener('click', function(){
+    window.location = '../html/husky-hub.html';
+})
+
