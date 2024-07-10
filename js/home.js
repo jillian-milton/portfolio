@@ -27,6 +27,6 @@ about.addEventListener('click', function(){
 
 
 portfolio.addEventListener('click', function(){
-    window.location = '../html/porfolio.html';
+    window.location = '../html/portfolio.html';
 })
 
