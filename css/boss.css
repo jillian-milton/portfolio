@@ -103,7 +103,7 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
     width: 70%;
 }
 
@@ -193,7 +193,13 @@ button{
 
 .cal{
     width: auto;
-    height: 250px;
+    height: 260px;
+}
+
+.about{
+    width: 70%;
+    text-align: left;
+    font-size: 16px;
 }
 
 @media (width <= 600px) {
