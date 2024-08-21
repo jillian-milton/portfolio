@@ -192,6 +192,11 @@ button{
 /* Medium-sized screen styles */
 @media(width <= 900px){
 
+    .little{
+        height: auto;
+        width: 200px;
+    }
+
     h1{
         text-align: center;
         color: #9e5b09;
@@ -220,9 +225,14 @@ button{
         font-size: 24px;
     }
 
+    .image{
+        height: auto;
+        width: 360px;
+    }
+
     .expand{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 30px;
@@ -249,7 +259,7 @@ button{
     }
     .row{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 40px;
     }
 
