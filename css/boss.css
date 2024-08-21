@@ -210,64 +210,47 @@ button{
     margin: 20px;
 }
 
-@media (width <= 600px) {
-    #menu{
-        display: inline;
-    }
-
-    .logo{
-        margin: 20px;
+/* Medium-sized screen styles */
+@media(width <= 900px){
+    h1{
+        text-align: center;
+        color: #9e5b09;
+        font-size: 36px;
     }
     
-    .image{
-        width: 360px;
-        height: auto;
-    }
+    h2{
+        text-align: center;
+        color: #2f4f4f;
+        font-size: 28px;
+    }            
+}
 
-    .cal{
-        width: auto;
-        height: 230px;
+/* Main mobile styles */
+@media (width <= 600px) {
+
+    h1{
+        text-align: center;
+        color: #9e5b09;
+        font-size: 32px;
+    }   
+    
+    h2{
+        text-align: center;
+        color: #2f4f4f;
+        font-size: 24px;
     }
 
     .picture{
         width: auto;
         height: 160px;
     }
-    
-    .info{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-    }
-    /* .row{
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-    } */
-    .horiz2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 50px;
-    }
-    .about{
-        width: 350px;
-        text-align: left;
-        font-size: 16px;
-    }
-    h1{
-        font-size: 30px;
-    }
+
     .expand{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 20px;
-        /* width: 50%; */
     }
 
     .flex{
@@ -276,12 +259,49 @@ button{
         gap: 10px;
     }
 
- 
+    .about{
+        width: 350px;
+        text-align: left;
+        font-size: 16px;
+    }
 
-       /* Hamburger Menu Navigation */
+    .logo{
+        margin: 20px;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .cal{
+        height: 230px;
+        width: auto;
+    }
+
+    .image{
+        height: auto;
+        width: 360px;
+    }   
+
+    /* Hamburger Menu Navigation */
 .closed{
     display: none;
 }
+
+#menu{
+    display: inline;
+}
+
+
 
 nav {
     display: flex;
@@ -320,13 +340,14 @@ nav a{
     align-items: center;
     justify-content: space-between;
     gap: 140px;
+    margin: 0 auto;
 }
 
 .mobile{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 ul.horiz{
@@ -336,3 +357,28 @@ ul.horiz{
 }
 
 }
+
+/* Logo and hamburger spacing on smaller phone */
+@media (width <= 390px){
+    .center2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 140px;
+        margin: 0 auto;
+    }
+}
+
+/* Logo and hamburger spacing on smaller phone */
+@media(width = 430px){
+    .center2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 200px;
+        margin: 0 auto;
+    }
+}
+

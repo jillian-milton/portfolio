@@ -223,11 +223,77 @@ html{
     margin: 20px;
 }
 
-@media (width <= 600px) {
-    #menu{
-        display: inline; 
+/* Medium-sized screen styles */
+@media(width <= 900px){
+
+    h1{
+        text-align: center;
+        color: #9e5b09;
+        font-size: 36px;
     }
     
+    h2{
+        text-align: center;
+        color: #9e5b09;
+        font-size: 28px;
+    }
+    
+    .border{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        border: 2px solid #9e5b09;
+        border-radius: 6px;
+        background-color: white;
+        width: 230px;
+        height: 320px;
+    }
+    
+    .border:hover{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        border: 2px solid red;
+        border-radius: 6px;
+        background-color: white;
+        width: 250px;
+        height: 320px;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .computer{
+        height: auto;
+        width: 200px;
+    }
+
+    .smartphone{
+        height: 200px;
+        width: auto;
+    }
+}
+
+/* Main mobile styles */
+@media (width <= 600px) {
+
+    h1{
+        text-align: center;
+        color: #9e5b09;
+        font-size: 32px;
+    }   
+    
+    h2{
+        text-align: center;
+        color: #9e5b09;
+        font-size: 24px;
+    }
+
     .logo{
         margin: 20px;
     }
@@ -245,10 +311,28 @@ html{
         gap: 40px;
     }
 
+    button{
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        background-color: #9e5b09;
+        color: white;
+        font-weight: bold; 
+        border-radius: 8px;
+        border-style: none; 
+        font-size: 20px;
+    }
+
     /* Hamburger Menu Navigation */
 .closed{
     display: none;
 }
+
+#menu{
+    display: inline;
+}
+
+
 
 nav {
     display: flex;
@@ -287,13 +371,14 @@ nav a{
     align-items: center;
     justify-content: space-between;
     gap: 140px;
+    margin: 0 auto;
 }
 
 .mobile{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 ul.horiz{
@@ -303,3 +388,28 @@ ul.horiz{
 }
 
 }
+
+/* Logo and hamburger spacing on smaller phone */
+@media (width <= 390px){
+    .center2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 140px;
+        margin: 0 auto;
+    }
+}
+
+/* Logo and hamburger spacing on smaller phone */
+@media(width = 430px){
+    .center2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 200px;
+        margin: 0 auto;
+    }
+}
+

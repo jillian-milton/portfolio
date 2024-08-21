@@ -189,18 +189,55 @@ button{
     margin: 20px;
 }
 
-@media (width <= 600px) {
-    #menu{
-        display: inline; 
-    }
+/* Medium-sized screen styles */
+@media(width <= 900px){
 
-    .logo{
-        margin: 20px;
+    h1{
+        text-align: center;
+        color: #9e5b09;
+        font-size: 36px;
+    }   
+    
+    h2{
+        text-align: center;
+        color: #2f4f4f;
+        font-size: 28px;
     }
     
-    .image{
-        width: 360px;
-        height: auto;
+}
+
+/* Main mobile styles */
+@media (width <= 600px) {
+    h1{
+        text-align: center;
+        color: #9e5b09;
+        font-size: 32px;
+    }   
+    
+    h2{
+        text-align: center;
+        color: #2f4f4f;
+        font-size: 24px;
+    }
+
+    .expand{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        width: 70%;
+    }
+
+    
+    .flex{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .logo{
+        margin: 20px;
     }
 
     .info{
@@ -210,47 +247,34 @@ button{
         justify-content: center;
         gap: 30px;
     }
-    /* .row{
+    .row{
         display: flex;
         flex-direction: column;
         gap: 40px;
-    } */
-    .horiz2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 50px;
-    }
-    .about{
-        width: 350px;
-        text-align: left;
-        font-size: 16px;
-    }
-    h1{
-        font-size: 30px;
-    }
-    .expand{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        /* width: 50%; */
     }
 
-    .flex{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+    button{
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        background-color: #9e5b09;
+        color: white;
+        font-weight: bold; 
+        border-radius: 8px;
+        border-style: none; 
+        font-size: 20px;
     }
 
- 
-
-       /* Hamburger Menu Navigation */
+    /* Hamburger Menu Navigation */
 .closed{
     display: none;
 }
+
+#menu{
+    display: inline;
+}
+
+
 
 nav {
     display: flex;
@@ -289,13 +313,14 @@ nav a{
     align-items: center;
     justify-content: space-between;
     gap: 140px;
+    margin: 0 auto;
 }
 
 .mobile{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 ul.horiz{
@@ -305,3 +330,28 @@ ul.horiz{
 }
 
 }
+
+/* Logo and hamburger spacing on smaller phone */
+@media (width <= 390px){
+    .center2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 140px;
+        margin: 0 auto;
+    }
+}
+
+/* Logo and hamburger spacing on smaller phone */
+@media(width = 430px){
+    .center2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 200px;
+        margin: 0 auto;
+    }
+}
+
