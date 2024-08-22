@@ -69,7 +69,7 @@ h3{
 
 p{
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .small{
@@ -180,6 +180,7 @@ html{
 .phone{
     color: white;
     text-decoration: none;
+    font-size: 16px; 
 }
 
 #github{
@@ -205,11 +206,11 @@ html{
 }
 
 /* Medium-sized screen styles */
-@media(width <= 900px){
+@media(width <= 1000px){
     h1{
         text-align: center;
         color: #9e5b09;
-        font-size: 36px;
+        font-size: 32px;
     }
     
     h2{
@@ -259,17 +260,13 @@ html{
     }
 
     p{
+        text-align: center;
         font-size: 16px;
     }
-
 }
 
 /* Main mobile styles */
-@media (width <= 600px) {
-
-    p{
-        font-size: 16px; 
-    }
+@media (width <= 760px) {
 
     h1{
         text-align: center;

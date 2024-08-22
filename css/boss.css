@@ -211,7 +211,7 @@ button{
 }
 
 /* Medium-sized screen styles */
-@media(width <= 900px){
+@media(width <= 1000px){
     h1{
         text-align: center;
         color: #9e5b09;
@@ -226,7 +226,7 @@ button{
 }
 
 /* Main mobile styles */
-@media (width <= 600px) {
+@media (width <= 930px) {
 
     h1{
         text-align: center;

@@ -219,12 +219,14 @@ html{
     display: none; 
 }
 
-.logo{
-    margin: 20px;
+.phone{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
 }
 
 /* Medium-sized screen styles */
-@media(width <= 900px){
+@media(width <= 1000px){
 
     h1{
         text-align: center;
@@ -280,7 +282,7 @@ html{
 }
 
 /* Main mobile styles */
-@media (width <= 600px) {
+@media (width <= 760px) {
 
     h1{
         text-align: center;
