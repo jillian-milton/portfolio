@@ -1,5 +1,3 @@
-let linkedin = document.querySelector('#linkedin');
-let github = document.querySelector('#github');
 let about = document.querySelector('#about');
 let portfolio = document.querySelector('#porfolio');
 
@@ -11,14 +9,14 @@ hamburger.addEventListener('click', function(){
     open.classList.toggle('closed');
 })
 
-
+let linkedin = document.querySelector('.linkedin');
 linkedin.addEventListener('click', function(){
-    window.location = 'https://www.linkedin.com/in/jillian-milton-178349203/?trk=public_profile_samename-profile';
+    window.open('https://www.linkedin.com/in/jillian-milton-178349203/?trk=public_profile_samename-profile');
 })
 
-
+let github = document.querySelector('.github');
 github.addEventListener('click', function(){
-    window.location = 'https://github.com/jillian-milton/';
+    window.open('https://github.com/jillian-milton/');
 })
 
 about.addEventListener('click', function(){

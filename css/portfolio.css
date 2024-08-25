@@ -182,9 +182,6 @@ html{
     scroll-behavior: smooth;
 }
 
-#github{
-    background-color: white;
-}
 
 .bold{
     color: darkslategray;
@@ -219,11 +216,62 @@ html{
     display: none; 
 }
 
-.phone{
-    font-size: 16px;
-    color: white;
-    text-decoration: none;
+.email{
+    background-image: url('../img/email\ iocn.png');
+    width: 60px;
+    height: 60px;
+    background-size: cover;
 }
+
+.email:hover{
+    background-image: url('../img/email\ iocn\ hover.png');
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+.phone{
+    background-image: url('../img/phone\ icon.png');
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+.phone:hover{
+    background-image: url('../img/phone\ icon\ hover.png');
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+.linkedin{
+    background-image: url('https://cdn-icons-png.freepik.com/256/10091/10091797.png?semt=ais_hybrid');
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+.linkedin:hover{
+    background-image: url('../img/linkedin\ hover\ state.png');
+    width: 60px;
+    height: 60px; 
+    background-size: cover; 
+}
+
+.github{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYiBwe7URF5iyjMW20qp4IvMNvys8-tGb_-A&s');
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+.github:hover{
+    background-image: url('../img/github\ hover\ state.png');
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
 
 /* Medium-sized screen styles */
 @media(width <= 1000px){
