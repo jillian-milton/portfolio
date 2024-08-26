@@ -90,6 +90,7 @@ p{
     align-items: center;
     justify-content: center;
     gap: 50px;
+    margin: 20px;
 }
 
 .row{
@@ -217,7 +218,7 @@ html{
 }
 
 /* Main mobile styles */
-@media (width <= 800px) {
+@media (width <= 860px) {
 
     .email:hover{
         background-image: url('../img/email\ iocn.png');

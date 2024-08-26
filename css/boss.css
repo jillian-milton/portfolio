@@ -96,6 +96,7 @@ p{
     align-items: center;
     justify-content: center;
     gap: 50px;
+    margin: 20px;
 }
 
 .expand{
@@ -197,7 +198,7 @@ html{
 
 button{
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin: 20px;
     background-color: #9e5b09;
     color: white;
@@ -250,7 +251,7 @@ button{
 }
 
 .about{
-    width: 70%;
+    width: 500px;
     text-align: left;
     font-size: 16px;
 }
@@ -264,7 +265,7 @@ button{
 }
 
 /* Medium-sized screen styles */
-@media(width <= 1000px){
+@media(width <= 1200px){
     h1{
         text-align: center;
         color: #9e5b09;
@@ -279,7 +280,7 @@ button{
 }
 
 /* Main mobile styles */
-@media (width <= 930px) {
+@media (width <= 860px) {
 
     .email:hover{
         background-image: url('../img/email\ iocn.png');
@@ -362,6 +363,19 @@ button{
         flex-direction: row;
         gap: 40px;
     }
+
+    button{
+        text-align: center;
+        padding: 10px;
+        margin: 20px;
+        background-color: #9e5b09;
+        color: white;
+        font-weight: bold; 
+        border-radius: 8px;
+        border-style: none; 
+        font-size: 20px;
+    }
+
 
     .cal{
         height: 230px;
