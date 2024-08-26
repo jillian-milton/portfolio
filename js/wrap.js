@@ -21,6 +21,6 @@ github.addEventListener('click', function(){
 let app = document.querySelector('#app');
 
 app.addEventListener('click', function(){
-    window.location = 'https://snack.expo.dev/@skye22/restaurwrap?platform=ios';
+    window.open('https://snack.expo.dev/@skye22/restaurwrap?platform=ios');
 })
 

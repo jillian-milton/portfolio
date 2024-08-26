@@ -20,6 +20,6 @@ github.addEventListener('click', function(){
 let website= document.querySelector('#website');
 
 website.addEventListener('click', function(){
-    window.location = 'https://band.uconn.edu/';
+    window.open('https://band.uconn.edu/');
 })
 

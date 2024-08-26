@@ -22,13 +22,13 @@ let website = document.querySelector('#website');
 let calendar = document.querySelector('#calendar');
 
 figma.addEventListener('click', function(){
-    window.location = 'https://www.figma.com/design/gkh6NgP2lPREEc8PHOwewb/Karli-Mockup?node-id=87-62&t=5UWGEgRYgfyQCurE-1';
+    window.open('https://www.figma.com/design/gkh6NgP2lPREEc8PHOwewb/Karli-Mockup?node-id=87-62&t=5UWGEgRYgfyQCurE-1');
 })
 
 website.addEventListener('click', function(){
-    window.location = 'https://johansenw7486.wixsite.com/the-boss';
+    window.open('https://johansenw7486.wixsite.com/the-boss');
 })
 
 calendar.addEventListener('click', function(){
-    window.location = 'https://www.figma.com/design/FD6ut3mXghxmVfeP4DBkaP/December-Content-Calendar?node-id=0-1&t=00ruKAB9LQXYbemk-1';
+    window.open('https://www.figma.com/design/FD6ut3mXghxmVfeP4DBkaP/December-Content-Calendar?node-id=0-1&t=00ruKAB9LQXYbemk-1');
 })

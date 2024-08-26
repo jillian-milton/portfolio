@@ -20,6 +20,6 @@ github.addEventListener('click', function(){
 let website= document.querySelector('#website');
 
 website.addEventListener('click', function(){
-    window.location = 'https://xd.adobe.com/view/929d8030-3001-4fa6-90fd-e88ec60fe1aa-c7ce/?fullscreen';
+    window.open('https://xd.adobe.com/view/929d8030-3001-4fa6-90fd-e88ec60fe1aa-c7ce/?fullscreen');
 })
 

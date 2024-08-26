@@ -20,6 +20,6 @@ github.addEventListener('click', function(){
 let website= document.querySelector('#website');
 
 website.addEventListener('click', function(){
-    window.location = 'https://github.uconn.edu/pages/jsm19019/dmd-3475/final-project/html/home.html';
+    window.open('https://github.uconn.edu/pages/jsm19019/dmd-3475/final-project/html/home.html');
 })
 

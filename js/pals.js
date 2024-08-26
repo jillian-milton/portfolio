@@ -21,6 +21,6 @@ github.addEventListener('click', function(){
 let app = document.querySelector('#app');
 
 app.addEventListener('click', function(){
-    window.location = 'https://xd.adobe.com/view/02937209-16f6-4f9a-b085-a9b6d22209a4-57c0/?fullscreen';
+    window.open('https://xd.adobe.com/view/02937209-16f6-4f9a-b085-a9b6d22209a4-57c0/?fullscreen');
 })
 

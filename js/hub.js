@@ -20,12 +20,13 @@ github.addEventListener('click', function(){
 let figma = document.querySelector('#figma');
 
 figma.addEventListener('click', function(){
-    window.location = 'https://www.figma.com/design/5NmkDa3kbGa6ATtM6RBEv2/HuksyHub?node-id=15-1282&t=MVsG8zrKGf70VW4n-1';
+    window.open('https://www.figma.com/design/5NmkDa3kbGa6ATtM6RBEv2/HuksyHub?node-id=15-1282&t=MVsG8zrKGf70VW4n-1');
 })
 
 let app = document.querySelector('#app');
 
 app.addEventListener('click', function(){
-    window.location = 'https://charizard-948v.onrender.com';
+    window.open('https://charizard-948v.onrender.com');
+    //Link does not work
 })
 

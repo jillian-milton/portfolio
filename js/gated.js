@@ -22,14 +22,14 @@ let app = document.querySelector('#app');
 let thesis = document.querySelector('#thesis');
 
 figma.addEventListener('click', function(){
-    window.location = 'https://www.figma.com/design/qozV3CFjZ84RObfAiz5joa/Gated-Final-Design?node-id=0-1';
+    window.open('https://www.figma.com/design/qozV3CFjZ84RObfAiz5joa/Gated-Final-Design?node-id=0-1');
 })
 
 app.addEventListener('click', function(){
-    window.location = 'https://gated.onrender.com';
+    window.open('https://gated.onrender.com');
 })
 
 thesis.addEventListener('click', function(){
     //Add link here once published to Open Commons
-    window.location = '';
+    window.open('');
 })

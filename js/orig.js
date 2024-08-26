@@ -21,6 +21,6 @@ github.addEventListener('click', function(){
 let website= document.querySelector('#website');
 
 website.addEventListener('click', function(){
-    window.location = 'https://www.blindpioneers.com';
+    window.open('https://www.blindpioneers.com');
 })
 
