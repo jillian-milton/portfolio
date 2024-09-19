@@ -210,6 +210,18 @@ button{
     height: 80px;
 }
 
+button:hover{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold; 
+    border-radius: 8px;
+    border-style: none; 
+    font-size: 20px;
+}
+
 .bold{
     color: #9e5b09;
 }
@@ -242,7 +254,7 @@ button{
 
 .picture{
     width: auto;
-    height: 250px;
+    height: 320px;
 }
 
 .cal{
@@ -261,7 +273,11 @@ button{
 }
 
 .logo{
-    margin: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 24px;
+    margin-top: 30px; 
+    /* border: 2px solid red; */
 }
 
 /* Medium-sized screen styles */
@@ -276,11 +292,29 @@ button{
         text-align: center;
         color: #2f4f4f;
         font-size: 28px;
-    }            
+    } 
+    
+    .picture{
+        width: auto;
+        height: 250px;
+    }
 }
 
 /* Main mobile styles */
 @media (width <= 860px) {
+
+    button:hover{
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        background-color: #9e5b09;
+        color: white;
+        font-weight: bold; 
+        border-radius: 8px;
+        border-style: none; 
+        font-size: 20px;
+    }
+
 
     .email:hover{
         background-image: url('../img/email\ iocn.png');
@@ -324,7 +358,7 @@ button{
 
     .picture{
         width: auto;
-        height: 160px;
+        height: 220px;
     }
 
     .expand{
@@ -348,7 +382,11 @@ button{
     }
 
     .logo{
-        margin: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin: 24px;
+        margin-top: 30px; 
+        /* border: 2px solid red; */
     }
 
     .info{

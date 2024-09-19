@@ -19,17 +19,11 @@ github.addEventListener('click', function(){
 
 let figma = document.querySelector('#figma');
 let app = document.querySelector('#app');
-let thesis = document.querySelector('#thesis');
 
 figma.addEventListener('click', function(){
-    window.open('https://www.figma.com/design/qozV3CFjZ84RObfAiz5joa/Gated-Final-Design?node-id=0-1');
+    window.open('https://www.figma.com/proto/qozV3CFjZ84RObfAiz5joa/Gated-Final-Design?node-id=2-2&node-type=canvas&t=fxadTr8uLniiGOVF-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2');
 })
 
 app.addEventListener('click', function(){
     window.open('https://gated.onrender.com');
-})
-
-thesis.addEventListener('click', function(){
-    //Add link here once published to Open Commons
-    window.open('');
 })

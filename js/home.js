@@ -28,10 +28,10 @@ portfolio.addEventListener('click', function(){
     window.location = '../html/portfolio.html';
 })
 
-let boss = document.querySelector('.boss');
+let winning = document.querySelector('.winning');
 
-boss.addEventListener('click', function(){
-    window.location = '../html/boss.html';
+winning.addEventListener('click', function(){
+    window.location = '../html/winning.html';
 })
 
 let gated = document.querySelector('.gated');

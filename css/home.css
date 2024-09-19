@@ -85,6 +85,20 @@ p{
     justify-content: center;
 }
 
+.recent{
+    color: white;
+}
+
+.box{
+    background-color: black;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .horiz{
     display: flex;
     flex-direction: row;
@@ -95,7 +109,11 @@ p{
 }
 
 .logo{
-    margin: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 24px;
+    margin-top: 30px; 
+    /* border: 2px solid red; */
 }
 
 .row{
@@ -115,19 +133,15 @@ p{
     justify-content: center;
 }
 
-article{
-    background-color: rgb(222, 222, 222);
-}
-
 .title{
-    margin-bottom: 6px;
+    margin: 16px;
     /* width: 300px; */
     font-size: 22px;
 }
 
 .subtitle{
     /* width: 300px; */
-    margin-bottom: 6px;
+    margin: 8px;
     font-size: 20px;
 }
 
@@ -160,6 +174,18 @@ button{
     padding: 20px;
     margin: 20px;
     background-color: #9e5b09;
+    color: white;
+    font-weight: bold; 
+    border-radius: 8px;
+    border-style: none; 
+    font-size: 20px;
+}
+
+button:hover{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: red;
     color: white;
     font-weight: bold; 
     border-radius: 8px;
@@ -309,10 +335,48 @@ html{
         text-align: center;
         font-size: 16px;
     }
+
+    .title{
+        margin: 16px;
+        /* width: 300px; */
+        font-size: 18px;
+        /* border: 2px solid black; */
+    }
+    
+    .subtitle{
+        /* width: 300px; */
+        margin: 8px;
+        font-size: 16px;
+    }
 }
 
 /* Main mobile styles */
 @media (width <= 860px) {
+
+    .title{
+        margin: 16px;
+        /* width: 300px; */
+        font-size: 18px;
+        /* border: 2px solid black; */
+    }
+    
+    .subtitle{
+        /* width: 300px; */
+        margin: 8px;
+        font-size: 16px;
+    }
+
+    button:hover{
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        background-color: #9e5b09;
+        color: white;
+        font-weight: bold; 
+        border-radius: 8px;
+        border-style: none; 
+        font-size: 20px;
+    }
 
     .email:hover{
         background-image: url('../img/email\ iocn.png');
@@ -457,7 +521,6 @@ ul.horiz{
 /* Logo and hamburger spacing on smaller phone */
 @media (width <= 390px){
 
-
     .center2{
         display: flex;
         flex-direction: row;
@@ -470,7 +533,6 @@ ul.horiz{
 
 /* Logo and hamburger spacing on smaller phone */
 @media(width = 430px){
-
    
     .center2{
         display: flex;
