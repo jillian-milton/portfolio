@@ -9,7 +9,7 @@ hamburger.addEventListener('click', function(){
 
 let linkedin = document.querySelector('.linkedin');
 linkedin.addEventListener('click', function(){
-    window.open('https://www.linkedin.com/in/jillian-milton-178349203/?trk=public_profile_samename-profile');
+    window.open('https://www.linkedin.com/in/jillian-milton/');
 })
 
 let github = document.querySelector('.github');

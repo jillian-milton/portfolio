@@ -2,11 +2,9 @@ body{
     margin: 0px;
     font-family: 'Arial';
     background-color: white;
+    overflow-x: hidden; 
 }
 
-.computer{
-    margin: 20px;
-}
 
 header{
     background-color: rgb(225, 179, 111);
@@ -59,11 +57,67 @@ ul{
 h1{
     text-align: center;
     color: #9e5b09;
+    font-size: 36px;
 }
 
 h2{
     text-align: center;
     color: white;
+    font-size: 28px;
+}
+
+.title{
+    margin: 16px;
+    /* width: 300px; */
+    font-size: 18px;
+    /* border: 2px solid black; */
+}
+
+.subtitle{
+    /* width: 300px; */
+    margin: 6px;
+    font-size: 16px;
+}
+
+.border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: 2px solid #9e5b09;
+    border-radius: 6px;
+    background-color: white;
+    width: 230px;
+    height: 320px;
+}
+
+.border:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: 2px solid red;
+    border-radius: 6px;
+    background-color: white;
+    width: 230px;
+    height: 320px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.computer{
+    height: auto;
+    width: 250px;
+    margin: 12px;
+}
+
+.smartphone{
+    height: 200px;
+    width: auto;
 }
 
 .box{
@@ -129,42 +183,6 @@ article{
     background-color: white;
 }
 
-.title{
-    margin: 16px;
-    /* width: 300px; */
-    font-size: 22px;
-    /* border: 2px solid black; */
-}
-
-.subtitle{
-    /* width: 300px; */
-    margin: 8px;
-    font-size: 20px;
-}
-
-.border{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    border: 2px solid #9e5b09;
-    border-radius: 6px;
-    width: 300px;
-    height: 420px;
-    background-color: white;
-}
-
-.border:hover{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    border: 2px solid red;
-    border-radius: 6px;
-    background-color: white;
-    width: 300px;
-    height: 420px;
-}
 
 button{
     text-align: center;
@@ -281,9 +299,26 @@ html{
     background-size: cover;
 }
 
+.desktop{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center; 
+    background-color: white; 
+}
+
 
 /* Medium-sized screen styles */
 @media(width <= 1100px){
+
+    .desktop{
+        display: flex;
+        flex-direction: column; 
+        gap: 20px;
+        justify-content: center;
+        align-items: center; 
+        background-color: white; 
+    }
 
     h1{
         text-align: center;
@@ -353,6 +388,11 @@ html{
 
 /* Main mobile styles */
 @media (width <= 860px) {
+
+    .computer{
+        height: auto;
+        width: 250px;
+    }
 
     .title{
         margin: 16px;

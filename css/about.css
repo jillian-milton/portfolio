@@ -72,7 +72,7 @@ p{
 }
 
 .about{
-    width: 500px;
+    width: 450px;
     text-align: left;
     font-size: 16px;
 }
@@ -211,6 +211,7 @@ html{
     }
 
     .about{
+        width: 400px;
         text-align: left;
         font-size: 16px;
     }
@@ -253,7 +254,7 @@ html{
     }
 
     .about{
-        width: 350px;
+        width: 370px;
         text-align: left;
         font-size: 16px;
     }
