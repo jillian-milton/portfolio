@@ -11,7 +11,8 @@ hamburger.addEventListener('click', function(){
 
 let linkedin = document.querySelector('.linkedin');
 linkedin.addEventListener('click', function(){
-    window.open('https://www.linkedin.com/in/jillian-milton/');
+    window.open('https://www.linkedin.com/in/jillian-milton-uxdesigner/');
+    //Original URL: https://www.linkedin.com/in/jillian-milton/
 })
 
 let github = document.querySelector('.github');
