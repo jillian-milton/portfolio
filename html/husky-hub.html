@@ -12,18 +12,19 @@
   <header>
     <div class="mobile">
         <div class="center2">
-            <img src="../img/JM Brand Logo.png" height="100" width="100" id="goose" class="logo">
+            <img src="../img/JM Brand Logo.png" alt="Logo of a goose flapping its wings in mid flight"height="100" width="100" id="goose" class="logo">
                  <a class="hamburger"> 
-                    <img src="../img/gray hamburger.png" height="50" width="50" id="menu" class="logo">
+                    <img src="../img/gray hamburger.png" alt="menu icon three horizontal lines" height="50" width="50" id="menu" class="logo">
                 </a>
         </div>
-        <nav class="open closed">
-            <ul class="horiz">
-                <a href="/">Home</a>
-                <a href="about.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="#contact">Contact</a>
+        <nav class="open closed" aria-label="Main navigation">
+            <ul class="horiz nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="../html/about.html">About</a></li>
+                <li><a href="../html/portfolio.html">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+            
         </nav>
     </div>
    
@@ -52,33 +53,37 @@
            
         </div>
         
-        <img src="../img/Husky Hub.png" class="little" height="auto" width="300">
+        <img src="../img/Husky Hub.png" class="little" height="auto" width="300"
+        alt="Smartphone screen showing a social media app called 'Husky Hub', styled with red, white, and blue branding. The top of the screen shows the time (1:47) and a logo with overlapping red and blue H’s. The interface features a vertical feed of posts. The first post is by @UCONNROCKS with the caption 'Final 4 baby!!!!' and a short looping video of someone playing an arcade basketball game. Below, the same user posts again, asking, 'Anyone else get their cap and gown today????' and adds, 'Feeling sad that my time’s almost up :// Also why is the School of Fine Arts Tassle Shit Brown!!!!' Reaction icons appear under the post: bookmark, heart, speech bubble, and refresh. The next post is from @UCONNHUSKIES and includes a looping video of an adult dunking a basketball on a toy hoop over a door while a child falls to the ground. The bottom navigation bar has five icons: a person silhouette, Twitter bird, the Husky Hub logo, a speech bubble, and a bookmark. A large red circular button with a plus sign for creating a new post floats in the bottom right.">
     </section>
 </div>
 
 <br>
 
-                 <!-- Footer -->
-        <footer id="contact">
-            <br>
-            <br>
+<!-- Footer -->
+<footer id="contact">
+    <br><br>
 
-            <div class="center">
-                <div class="row2">
-                    <a href="mailto:jillian.s.milton@gmail.com"><div class="email circle"></div></a>
-                    <a href="tel:+17329912791"><div class="phone circle"></div></a>
-                    <div class="linkedin circle"></div>
-                    <div class="github circle"></div>
-                </div>
-            </div>
-<br>
-            <div class="center">
-                <p>Designed and Developed by Jillian Milton </p>
-            </div>
+    <div class="center">
+        <div class="row2">
+            <a href="mailto:jillian.s.milton@gmail.com">
+                <div class="email circle" aria-label="Email Jillian"></div>
+            </a>
+            <a href="tel:+17329912791">
+                <div class="phone circle" aria-label="Call Jillian"></div>
+            </a>
+            <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener">
+                <div class="linkedin circle" aria-label="Jillian's LinkedIn profile"></div>
+            </a>
+            <a href="https://github.com/your-github" target="_blank" rel="noopener">
+                <div class="github circle" aria-label="Jillian's GitHub profile"></div>
+            </a>
+        </div>
+    </div>
 
-            <br><br>
-            
-        </footer>
+    <br><br>
+</footer>
+
         
     <script src="../js/hub.js"></script>
 </body>

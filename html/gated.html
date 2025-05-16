@@ -12,18 +12,19 @@
    <header>
     <div class="mobile">
         <div class="center2">
-            <img src="../img/JM Brand Logo.png" height="100" width="100" id="goose" class="logo">
+            <img src="../img/JM Brand Logo.png" alt="Logo of a goose flapping its wings in mid flight"height="100" width="100" id="goose" class="logo">
                  <a class="hamburger"> 
-                    <img src="../img/gray hamburger.png" height="50" width="50" id="menu" class="logo">
+                    <img src="../img/gray hamburger.png" alt="menu icon three horizontal lines" height="50" width="50" id="menu" class="logo">
                 </a>
         </div>
-        <nav class="open closed">
-            <ul class="horiz">
-                <a href="/">Home</a>
-                <a href="about.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="#contact">Contact</a>
+        <nav class="open closed" aria-label="Main navigation">
+            <ul class="horiz nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="../html/about.html">About</a></li>
+                <li><a href="../html/portfolio.html">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+            
         </nav>
     </div>
    
@@ -36,7 +37,8 @@
 
 
 <div class="center">
-        <img class="image" src="../img/Senior Showcase Slide.png">
+        <img class="image" src="../img/Senior Showcase Slide.png"
+        alt='A presentation slide titled "Building College Community Through User Experience Design" by Jillian Milton, Digital Media and Design at UConn. On the left side, there is a red and blue pie chart based on responses from 301 UConn students. It shows that 66.4% prefer an academic app and 33.6% prefer a social app. Below the chart, two top dissatisfactions with current apps are listed: 1. Biased professor reviews (56%) and 2. Not enough UConn students on the platform (51%). The central problem is stated as students having difficulty connecting with others for academic needs. Three illustrated user personas are shown: Group Chat Charley, Grad School Gary, and Lacrosse Larissa. On the right side is a mockup of a smartphone screen showing a student app with a search result for "ACCT 2001" and profile cards for four people: Bob Jones, Charlotte Weber, Jiao Chen, and Aiden Katz. The UConn logo is in the bottom right corner.'>
 </div>
 
 <br>
@@ -61,33 +63,37 @@
            
         </div>
         
-        <img src="../img/Gated.png" class="little" height="auto" width="300">
+        <img src="../img/Gated.png" class="little" height="auto" width="300"
+        alt="Mobile phone screen displaying the homepage of a college networking app called 'GATED'. At the top, there is a graphic of a stylized gate, followed by the app name in teal and the tagline 'Unlock your college experience' in brown. Below is a short description: 'Find new people and insider information on campus.' There are three prominent buttons labeled 'Search People,' 'Search Courses,' and 'My Courses.' Further down, a 'Notifications' section shows messages, including one from Charlotte Weber saying 'Thanks I’ll need it!' and another related to 'CHEM 1127Q'. A menu icon appears in the top left corner, and a profile icon is in the top right.">
     </section>
 </div>
 
 <br>
 
-             <!-- Footer -->
-        <footer id="contact">
-            <br>
-            <br>
+<!-- Footer -->
+<footer id="contact">
+    <br><br>
 
-            <div class="center">
-                <div class="row2">
-                    <a href="mailto:jillian.s.milton@gmail.com"><div class="email circle"></div></a>
-                    <a href="tel:+17329912791"><div class="phone circle"></div></a>
-                    <div class="linkedin circle"></div>
-                    <div class="github circle"></div>
-                </div>
-            </div>
-<br>
-            <div class="center">
-                <p>Designed and Developed by Jillian Milton </p>
-            </div>
+    <div class="center">
+        <div class="row2">
+            <a href="mailto:jillian.s.milton@gmail.com">
+                <div class="email circle" aria-label="Email Jillian"></div>
+            </a>
+            <a href="tel:+17329912791">
+                <div class="phone circle" aria-label="Call Jillian"></div>
+            </a>
+            <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener">
+                <div class="linkedin circle" aria-label="Jillian's LinkedIn profile"></div>
+            </a>
+            <a href="https://github.com/your-github" target="_blank" rel="noopener">
+                <div class="github circle" aria-label="Jillian's GitHub profile"></div>
+            </a>
+        </div>
+    </div>
 
-            <br><br>
-            
-        </footer>
+    <br><br>
+</footer>
+
         
     <script src="../js/gated.js"></script>
 </body>

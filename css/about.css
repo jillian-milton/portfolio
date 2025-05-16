@@ -29,6 +29,12 @@ nav{
     justify-content: space-between;
 }
 
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
 ul{
     float: right;
     /* margin: 10px; */
