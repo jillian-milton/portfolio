@@ -83,6 +83,17 @@ p{
     font-size: 16px;
 }
 
+.inline{
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.contact-row {
+    width: 450px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
 .center{
     display: flex;
     flex-direction: column;
@@ -222,6 +233,13 @@ html{
         font-size: 16px;
     }
 
+    .contact-row {
+        width: 400px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+
     p{
         font-size: 16px;
     }
@@ -264,6 +282,17 @@ html{
         text-align: left;
         font-size: 16px;
     }
+
+    .contact-row {
+        width: 370px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    a{
+        font-size: 16px;
+    }
+    
 
     .horiz2{
         display: flex;
