@@ -1,9 +1,14 @@
+// Hamburger Icon
 let hamburger = document.querySelector('.hamburger');
 let open = document.querySelector('.open');
 let closed = document.querySelector('.closed');
 
 hamburger.addEventListener('click', function(){
     open.classList.toggle('closed');
+
+    // Update aria-expanded
+    let expanded = hamburger.getAttribute('aria-expanded') === 'true';
+    hamburger.setAttribute('aria-expanded', !expanded);
 })
 
 let linkedin = document.querySelector('.linkedin');

@@ -8,15 +8,18 @@
     <title>Home | Jillian Milton Portfolio</title>
 </head>
 <body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <!-- Header -->
     <header>
         <div class="mobile">
-            <div class="center2">
-                <img src="../img/JM Brand Logo.png" alt="Logo of a goose flapping its wings in mid flight"height="100" width="100" id="goose" class="logo">
-                     <a class="hamburger"> 
-                        <img src="../img/gray hamburger.png" alt="menu icon three horizontal lines" height="50" width="50" id="menu" class="logo">
-                    </a>
-            </div>
+             <div class="center2">
+            <img src="../img/JM Brand Logo.png" alt="Logo of a goose flapping its wings in mid flight"height="100" width="100" id="goose" class="logo">
+                <button class="hamburger none" aria-label="Open menu" aria-expanded="false">
+                    <img src="../img/gray hamburger.png" alt="" height="50" width="50" id="menu" class="logo">
+                </button>
+        </div>
             <nav class="open closed" aria-label="Main navigation">
                 <ul class="horiz nav-links">
                     <li><a href="/">Home</a></li>
@@ -32,7 +35,9 @@
     
 
 <!-- Body -->
-    <br>
+
+<main id="main-content"> 
+     <br>
 
     <h1>Jillian Milton</h1>
 
@@ -80,7 +85,29 @@
         </div>
         <br>
 <div class="center row">
-    <section class="border gated">
+
+<a href="../html/gated.html" class="project-card">
+        <section class="border gated">
+            <div class="column">
+                <div class="center">
+                    <img 
+                        src="../img/Gated.png"
+                        class="smartphone"
+                        height="300"
+                        alt="Preview of the Gated app prototype.">
+                </div>
+
+                <div class="flex">
+                    <h3 class="title">Gated</h3>
+                    <p class="subtitle">
+                        <strong class="bold">Year:</strong> 2023 – 2024
+                    </p>
+                </div>
+            </div>
+        </section>
+    </a>
+
+    <!-- <section class="border gated">
         <div class="column">
             <div class="center">
                 <img src="../img/Gated.png" class="smartphone" height="300" width="auto"
@@ -91,9 +118,30 @@
                 <p class="subtitle"><strong class="bold">Year: </strong> 2023 - 2024</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
+             <a href="../html/husky-hub.html" class="project-card">
     <section class="border hub">
+        <div class="column">
+            <div class="center">
+                <img 
+                    src="../img/Husky Hub.png"
+                    class="smartphone"
+                    height="300"
+                    alt="Preview of the Husky Hub app prototype.">
+            </div>
+
+            <div class="flex">
+                <h3 class="title">Husky Hub</h3>
+                <p class="subtitle">
+                    <strong class="bold">Year:</strong> 2024
+                </p>
+            </div>
+        </div>
+    </section>
+</a>
+
+    <!-- <section class="border hub">
         <div class="column">
             <div class="center">
                 <img src="../img/Husky Hub.png" class="smartphone" height="300" width="auto" 
@@ -105,9 +153,26 @@
                 <p class="subtitle"><strong class="bold">Year: </strong> 2024</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="border winning">
+     <a href="../html/winning.html" class="project-card">
+        <section class="border winning">
+            <div class="column">
+                <div class="center">
+                    <img src="../img/Winning Habits.png"
+                         class="smartphone"
+                         height="300"
+                         alt="Preview of the Winning Habits app design.">
+                </div>
+                <div class="flex">
+                    <h3 class="title">Winning Habits</h3>
+                    <p class="subtitle"><strong class="bold">Year:</strong> 2023</p>
+                </div>
+            </div>
+        </section>
+    </a>
+
+    <!-- <section class="border winning">
         <div class="column">
             <div class="center">
                 <img src="../img/Winning Habits.png" class="smartphone" height="300" width="auto"
@@ -118,7 +183,7 @@
                 <p class="subtitle"><strong class="bold">Year: </strong> 2023</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
 </div>
         
@@ -133,10 +198,12 @@
     </article>
         
 
-        <!-- Call to Action here-->
+        <!-- Call to Action -->
         <h2>Let's Build Something Amazing</h2> 
 
         <br><br>
+</main>
+   
 
 <!-- Footer -->
 <footer id="contact">

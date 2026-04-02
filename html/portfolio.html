@@ -8,14 +8,17 @@
     <title>Portfolio | Jillian Milton Portfolio</title>
 </head>
 <body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
    <!-- Header -->
    <header>
     <div class="mobile">
         <div class="center2">
             <img src="../img/JM Brand Logo.png" alt="Logo of a goose flapping its wings in mid flight"height="100" width="100" id="goose" class="logo">
-                 <a class="hamburger"> 
-                    <img src="../img/gray hamburger.png" alt="menu icon three horizontal lines" height="50" width="50" id="menu" class="logo">
-                </a>
+                <button class="hamburger none" aria-label="Open menu" aria-expanded="false">
+                    <img src="../img/gray hamburger.png" alt="" height="50" width="50" id="menu" class="logo">
+                </button>
         </div>
         <nav class="open closed" aria-label="Main navigation">
             <ul class="horiz nav-links">
@@ -31,7 +34,9 @@
 </header>
 <br>
 
-    <h1>Portfolio</h1>
+
+<main id="main-content"> 
+     <h1>Portfolio</h1>
 
     <br>
    
@@ -40,9 +45,79 @@
             <h2>Large-Scale Projects</h2>
         </div>
         <br>
-      
+
         <div class="center row">
-            <section class="border gated" aria-label="an orange border is around this content. Click anywhere inside it to view the whole project.">
+
+    <a href="../html/gated.html" class="project-card">
+        <section class="border gated">
+            <div class="column">
+                <div class="center">
+                    <img 
+                        src="../img/Gated.png"
+                        class="smartphone"
+                        height="300"
+                        alt="Preview of the Gated app prototype.">
+                </div>
+
+                <div class="flex">
+                    <h3 class="title">Gated</h3>
+                    <p class="subtitle">
+                        <strong class="bold">Year:</strong> 2023 – 2024
+                    </p>
+                </div>
+            </div>
+        </section>
+    </a>
+
+
+    <a href="../html/band.html" class="project-card">
+        <section class="border band">
+            <div class="column">
+                <div class="center">
+                    <img 
+                        src="../img/uconn band.png"
+                        class="computer"
+                        width="370"
+                        alt="Preview of the UConn Athletic Bands website.">
+                </div>
+
+                <div class="flex">
+                    <h3 class="title">UConn Athletic Bands</h3>
+                    <p class="subtitle">
+                        <strong class="bold">Year:</strong> 2022 – 2023
+                    </p>
+                </div>
+            </div>
+        </section>
+    </a>
+
+
+    <a href="../html/boss.html" class="project-card">
+        <section class="border boss">
+            <div class="column">
+                <div class="center">
+                    <img 
+                        src="../img/the boss.png"
+                        class="computer"
+                        width="370"
+                        alt="Preview of The BOSS website.">
+                </div>
+
+                <div class="flex">
+                    <h3 class="title">The BOSS</h3>
+                    <p class="subtitle">
+                        <strong class="bold">Year:</strong> 2023
+                    </p>
+                </div>
+            </div>
+        </section>
+    </a>
+
+</div>
+      
+        <!-- <div class="center row">
+            <a href='../html/gated.html'> 
+                <section class="border gated" aria-label="an orange border is around this content. Click anywhere inside it to view the whole project.">
                 <div class="column">
                     <div class="center">
                         <img src="../img/Gated.png" class="smartphone" height="300" width="157"
@@ -55,7 +130,10 @@
                 </div>
             </section>
 
-            <section class="border band" aria-label="an orange border is around this content. Click anywhere inside it to view the whole project.">
+            </a>
+
+            <a href='../html/band.html'>
+                <section class="border band" aria-label="an orange border is around this content. Click anywhere inside it to view the whole project.">
                 <div class="column">
                     <div class="center">
                         <img src="../img/uconn band.png" class="computer" height="auto" width="370"
@@ -68,9 +146,12 @@
                     </div>
                 </div>
             </section>
-        
-        
-            <section class="border boss" aria-label="an orange border is around this content. Click anywhere inside it to view the whole project.">
+
+            </a>
+            
+
+            <a href='../html/boss.html'>
+                <section class="border boss" aria-label="an orange border is around this content. Click anywhere inside it to view the whole project.">
                 <div class="column">
                     <div class="center">
                         <img src="../img/the boss.png" class="computer" height="auto" width="370"
@@ -82,9 +163,11 @@
                     </div>
                 </div>
             </section>
-        
+
+
+            </a>
     
-        </div>
+        </div> -->
     </section>
 
     <section>
@@ -96,66 +179,94 @@
 
         <article class="desktop">
             <div class="center row">
-                <section class="border winning" aria-label="an orange border is around this content. Click anywhere inside it to view the whole project.">
-                    <div class="column">
-                        <div class="center">
-                            <img src="../img/Winning Habits.png" class="smartphone" height="300" width="auto"
-                            alt="Winning Habits app design picture. Click this image or the text below to view the full project.">
-                        </div>
-                        <div class="flex">
-                            <i> <h3 class="title">Winning Habits</h3> </i>
-                            <p class="subtitle"><strong class="bold">Year: </strong> 2023</p>
-                        </div>
-                    </div>
-                </section>
-            
-                <section class="border redesign" aria-label="an orange border is around this content. Click anywhere inside it to view the whole project.">
-                    <div class="column">
-                        <div class="center">
-                            <img src="../img/Blind Redesign.png" class="computer" height="auto" width="370"
-                            alt="Blind Pioneers website redesign picture. Click this image or the text below to view the full project.">
-                        </div>
-                        <div class="flex">
-                            <i> <h3 class="title">Blind Pioneers Redesign</h3> </i>
-                            <p class="subtitle"> <strong class="bold">Year: </strong> 2022</p>
-                        </div>
-                    </div>
-                </section>
 
+    <a href="../html/winning.html" class="project-card">
+        <section class="border winning">
+            <div class="column">
+                <div class="center">
+                    <img src="../img/Winning Habits.png"
+                         class="smartphone"
+                         height="300"
+                         alt="Preview of the Winning Habits app design.">
                 </div>
-                <br><br>
-    
-                <div class="center row">
-                    <section class="border" aria-label="an orange border is around this content. Click anywhere inside it to view the whole project.">
-                        <div class="column">
-                            <div class="center pals">
-                                <img class="smartphone" src="../img/Screenshot 2024-09-13 at 1.55.54 PM.png" 
-                                alt="Husky Pals app picture. Click this image or the text below to view the full project."
-                                height="290" width="auto">
-                            </div>
-                            <div class="flex">
-                                <i> <h3 class="title">Husky Pals</h3> </i>
-                                <p class="subtitle"><strong class="bold">Year: </strong> 2022</p>
-                            </div>
-                        </div>
-                    </section>
-                
-                    <section class="border orig" aria-label="an orange border is around this content. Click anywhere inside it to view the whole project.">
-                        <div class="column">
-                            <div class="center">
-                                <img src="../img/blind orig.png" class="computer" height="auto" width="370"
-                                alt="Blind Pioneers original website picture. Click this image or the text below to view the full project.">
-                            </div>
-                            <div class="flex">
-                                <i> <h3 class="title">Blind Pioneers</h3> </i>
-                                <p class="subtitle"><strong class="bold">Year: </strong> 2021</p>
-                            </div>
-                        </div>
-                    </section>
-                
+                <div class="flex">
+                    <h3 class="title">Winning Habits</h3>
+                    <p class="subtitle"><strong class="bold">Year:</strong> 2023</p>
                 </div>
-            
             </div>
+        </section>
+    </a>
+
+    <a href="../html/blind-redesign.html" class="project-card">
+        <section class="border redesign">
+            <div class="column">
+                <div class="center">
+                    <img src="../img/Blind Redesign.png"
+                         class="computer"
+                         width="370"
+                         alt="Preview of the Blind Pioneers website redesign.">
+                </div>
+                <div class="flex">
+                    <h3 class="title">Blind Pioneers Redesign</h3>
+                    <p class="subtitle"><strong class="bold">Year:</strong> 2022</p>
+                </div>
+            </div>
+        </section>
+    </a>
+
+</div>
+
+            
+    <br><br>
+
+    <div class="center row">
+          <a href="../html/husky-pals.html" class="project-card">
+    <section class="border">
+        <div class="column">
+            <div class="center pals">
+                <img 
+                    class="smartphone"
+                    src="../img/Screenshot 2024-09-13 at 1.55.54 PM.png"
+                    alt="Preview of the Husky Pals app design."
+                    height="290">
+            </div>
+
+            <div class="flex">
+                <h3 class="title">Husky Pals</h3>
+                <p class="subtitle">
+                    <strong class="bold">Year:</strong> 2022
+                </p>
+            </div>
+        </div>
+    </section>
+</a>
+
+           <a href="../html/blind-orig.html" class="project-card">
+    <section class="border orig">
+        <div class="column">
+            <div class="center">
+                <img 
+                    src="../img/blind orig.png"
+                    class="computer"
+                    width="370"
+                    alt="Preview of the original Blind Pioneers website.">
+            </div>
+
+            <div class="flex">
+                <h3 class="title">Blind Pioneers</h3>
+                <p class="subtitle">
+                    <strong class="bold">Year:</strong> 2021
+                </p>
+            </div>
+        </div>
+    </section>
+</a>
+    
+
+    </div>
+
+  
+    
     
         </article>
       
@@ -170,41 +281,104 @@
         <br>
         <article class="desktop"> 
             <div class="center row">
-                <section class="border hub" aria-label="an orange border is around this content. Click anywhere inside it to view the whole project.">
-                    <div class="column">
-                        <div class="center">
-                            <img src="../img/Husky Hub.png" class="smartphone" 
-                            alt="Husky Hub App prototype picture. Click this image or the text below to view the full project."
-                            height="300" width="157">
-                        </div>
-                        <div class="flex">
-                            <i> <h3 class="title">Husky Hub</h3> </i>
-                            <p class="subtitle"> <strong class="bold">Year: </strong> 2024</p>
-                        </div>
-                    </div>
-                </section>
-    
-                <section class="border wrap" aria-label="an orange border is around this content. Click anywhere inside it to view the whole project.">
-                    <div class="column">
-                        <div class="center">
-                            <img src="../img/Screenshot 2024-09-13 at 1.51.40 PM.png" class="smartphone" 
-                            alt="RestaurWrap App prototype picture. Click this image or the text below to view the full project."
-                            height="300" width="auto">
-                        </div>
-                        <div class="flex">
-                            <i> <h3 class="title">RestaurWrap</h3> </i>
-                            <p class="subtitle"><strong class="bold">Year: </strong>2023</p>
-                        </div>
-                    </div>
-                </section>
+
+                <a href="../html/husky-hub.html" class="project-card">
+    <section class="border hub">
+        <div class="column">
+            <div class="center">
+                <img 
+                    src="../img/Husky Hub.png"
+                    class="smartphone"
+                    height="300"
+                    alt="Preview of the Husky Hub app prototype.">
+            </div>
+
+            <div class="flex">
+                <h3 class="title">Husky Hub</h3>
+                <p class="subtitle">
+                    <strong class="bold">Year:</strong> 2024
+                </p>
+            </div>
+        </div>
+    </section>
+</a>
+
+
+<a href="../html/wrap.html" class="project-card">
+    <section class="border wrap">
+        <div class="column">
+            <div class="center">
+                <img 
+                    src="../img/Screenshot 2024-09-13 at 1.51.40 PM.png"
+                    class="smartphone"
+                    height="300"
+                    alt="Preview of the RestaurWrap app prototype.">
+            </div>
+
+            <div class="flex">
+                <h3 class="title">RestaurWrap</h3>
+                <p class="subtitle">
+                    <strong class="bold">Year:</strong> 2023
+                </p>
+            </div>
+        </div>
+    </section>
+</a>
         
             
             </div>
     
             <br> <br> 
     
+
+            
             <div class="center row">
-                <section class="border corporate" aria-label="an orange border is around this content. Click anywhere inside it to view the whole project.">
+
+                <a href="../html/corporate.html" class="project-card">
+    <section class="border corporate">
+        <div class="column">
+            <div class="center">
+                <img 
+                    src="../img/mediamodifier_image.png"
+                    class="computer"
+                    width="370"
+                    alt="Preview of the Corporate Landing Page website project.">
+            </div>
+
+            <div class="flex">
+                <h3 class="title">Corporate Landing Page</h3>
+                <p class="subtitle">
+                    <strong class="bold">Year:</strong> 2023
+                </p>
+            </div>
+        </div>
+    </section>
+</a>
+
+
+<a href="../html/van.html" class="project-card">
+    <section class="border van">
+        <div class="column">
+            <div class="center">
+                <img 
+                    src="../img/avs.png"
+                    class="computer"
+                    width="370"
+                    alt="Preview of the Accessible Van Service website redesign.">
+            </div>
+
+            <div class="flex">
+                <h3 class="title">Accessible Van Service</h3>
+                <p class="subtitle">
+                    <strong class="bold">Year:</strong> 2023
+                </p>
+            </div>
+        </div>
+    </section>
+</a>
+              
+            <!-- <a href='../html/corporate.html'>
+                  <section class="border corporate" aria-label="an orange border is around this content. Click anywhere inside it to view the whole project.">
                     <div class="column">
                         <div class="center">
                             <img src="../img/mediamodifier_image.png" class="computer" 
@@ -217,8 +391,12 @@
                         </div>
                     </div>
                 </section>
-            
-                <section class="border van" aria-label="an orange border is around this content. Click anywhere inside it to view the whole project.">
+
+            </a>
+
+
+            <a href='../html/van.html'>
+                 <section class="border van" aria-label="an orange border is around this content. Click anywhere inside it to view the whole project.">
                     <div class="column">
                         <div class="center">
                             <img src="../img/avs.png" class="computer" 
@@ -231,7 +409,9 @@
                         </div>
                     </div>
                 </section>
-            
+
+            </a> -->
+               
             </div>
 
         </article>
@@ -240,6 +420,10 @@
 
     
 <br><br>
+
+</main>
+
+   
 
 <!-- Footer -->
 <footer id="contact">

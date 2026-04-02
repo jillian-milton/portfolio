@@ -5,6 +5,33 @@ body{
     overflow-x: hidden; 
 }
 
+.none{
+    background-color: transparent; 
+}
+
+.none:hover{
+    background-color: transparent; 
+}
+
+.hamburger{
+    display: none; 
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 100;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 
 header{
     background-color: rgb(225, 179, 111);
@@ -540,6 +567,10 @@ nav a{
     justify-content: space-between;
 }
 
+.hamburger{
+    display: inline;
+}
+
 ul.horiz{
     margin: 0px;
     padding: 0px;
@@ -548,14 +579,221 @@ ul.horiz{
 
 }
 
+/* Meet WCAG 1.4.10 Reflow */
+@media (width <= 320px) {
+
+    .hamburger{
+        display: inline;
+    }
+
+    button:hover{
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        background-color: #9e5b09;
+        color: white;
+        font-weight: bold; 
+        border-radius: 8px;
+        border-style: none; 
+        font-size: 20px;
+    }
+
+    .about{
+        width: 300px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .email:hover{
+        background-image: url('../img/email\ iocn.png');
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+    }
+
+    .email{
+        width: 40px;
+        height: 40px;
+    }
+
+    .phone:hover{
+        background-image: url('../img/phone\ icon.png');
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+    }
+
+    .phone{
+        width: 40px;
+        height: 40px;
+    }
+
+    .linkedin:hover{
+        background-image: url('https://cdn-icons-png.freepik.com/256/10091/10091797.png?semt=ais_hybrid');
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+    }
+
+    .linkedin{
+        width: 40px;
+        height: 40px;
+    }
+
+    .github:hover{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYiBwe7URF5iyjMW20qp4IvMNvys8-tGb_-A&s');
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+    }
+    
+    .github{
+        width: 40px;
+        height: 40px;
+    }
+
+    h1{
+        text-align: center;
+        color: #9e5b09;
+        font-size: 32px;
+    }   
+    
+    h2{
+        text-align: center;
+        color: #ffffff;
+        font-size: 24px;
+    }
+
+    .image{
+        height: auto;
+        width: 300px;
+    }
+
+    .expand{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        width: 70%;
+    }
+
+    
+    .flex{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .logo{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin: 24px;
+        margin-top: 30px; 
+        /* border: 2px solid red; */
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .row{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    button{
+        text-align: center;
+        padding: 10px;
+        margin: 20px;
+        background-color: #9e5b09;
+        color: white;
+        font-weight: bold; 
+        border-radius: 8px;
+        border-style: none; 
+        font-size: 20px;
+    }
+
+    /* Hamburger Menu Navigation */
+.closed{
+    display: none;
+}
+
+#menu{
+    display: inline;
+}
+
+
+
+nav {
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(225, 179, 111);
+    gap: 10px;
+    align-items: left;
+    justify-content: flex-start;
+    top: 54px;
+}
+
+nav a{
+    color: black; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.open{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.horiz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.center2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul.horiz{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+}
+
+
 /* Logo and hamburger spacing on smaller phone */
-@media (width <= 390px){
+@media (width <= 320px){
     .center2{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        gap: 140px;
+        gap: 10px;
         margin: 0 auto;
     }
 }
