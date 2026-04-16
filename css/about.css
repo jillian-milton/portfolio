@@ -96,18 +96,22 @@ h1{
 }
 
 h2{
-    text-align: center;
+    text-align: left;
     color: #9e5b09;
 }
 
 h3{
     text-align: center;
-    color: #9e5b09;
+    color: darkslategray;
 }
 
 p{
     text-align: center;
     font-size: 16px;
+}
+
+.underline{
+    text-decoration: underline; 
 }
 
 .about{
@@ -332,13 +336,13 @@ html{
     }
 
     .about{
-        width: 330px;
+        width: 290px;
         text-align: left;
         font-size: 16px;
     }
 
     .contact-row {
-        width: 330px;
+        width: 290px;
         text-align: left;
         margin-bottom: 10px;
     }
@@ -490,10 +494,17 @@ ul.horiz{
     }
 
     .about{
-        width: 300px;
+        width: 290px;
         text-align: left;
         font-size: 14px;
     }
+
+       .contact-row {
+        width: 290px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
 
     .email:hover{
         background-image: url('../img/email\ iocn.png');
