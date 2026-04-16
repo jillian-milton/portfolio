@@ -335,6 +335,11 @@ html{
     display: none;
 }
 
+.project-card{
+    text-decoration: none; 
+    color: inherit; 
+}
+
 /* Medium-sized screen styles */
 @media(width <= 1000px){
     h1{
